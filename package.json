@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "name": "retrofm_bot",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "discord-akairo": "github:1Computer1/discord-akairo#master",
+    "discord.js": "github:discordjs/discord.js",
+    "express": "^4.15.5",
+    "ffmpeg-static": "^2.4.0",
+    "opusscript": "0.0.6"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
