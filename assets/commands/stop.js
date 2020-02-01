@@ -9,7 +9,7 @@ const { Command } = require('discord-akairo');
             });
         }
         async exec(message) {
-            const VoiceChannel = message.member.voice.channel
+            const VoiceChannel = message.member.voice.channel;
             
             if (VoiceChannel) {
                 const connection = message.guild.me.voice.channel;

@@ -1,6 +1,8 @@
 const { AkairoClient, CommandHandler, ListenerHandler } = require('discord-akairo');
+const dotenv = require('dotenv');
 
 const config = require('./config.json');
+let method = null;
 
     class RetroClient extends AkairoClient {
         constructor() {
@@ -41,7 +43,13 @@ const config = require('./config.json');
         }
 
         async login() {
-            super.login(config.token);
+            dotenv.config()
+            if (process.env.TOKEN) {
+                method = process.env.TOKEN;
+            } else {
+                method = config.token;
+            }
+            super.login(method);
         }
     }
 module.exports = RetroClient;
