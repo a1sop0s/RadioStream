@@ -1,5 +1,5 @@
 const { Command } = require('discord-akairo');
-const DataStream = 'https://datastreamlinkgoeshere.com/yep.mp4';
+const DataStream = 'https://sky.babahhcdn.com/RETRO';
 
     class PlayCommand extends Command {
         constructor() {
