@@ -4,7 +4,7 @@
   },
   "name": "retrofm_bot",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.2",
     "discord-akairo": "github:1Computer1/discord-akairo#master",
     "discord.js": "github:discordjs/discord.js",
     "dotenv": "^8.2.0",
