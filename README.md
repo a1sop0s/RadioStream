@@ -1,1 +1,1 @@
-# RadioStream - a small `discord.js` internet radio streaming project
+# RadioStream - a small and simple `discord.js` internet radio streaming project
